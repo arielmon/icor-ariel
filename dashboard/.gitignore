@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# copied ICOR data (regenerated at build time)
+/data
+
+.vercel
