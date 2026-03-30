@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --bg-base: #050505;
+  --bg-card: #0a0a0a;
+  --bg-card-header: #0f0f0f;
+  --bg-elevated: #0d0d0d;
+  --border: #1a1a1a;
+  --border-subtle: #141414;
+
+  --text-primary: #ffffff;
+  --text-body: #d4d4d4;
+  --text-secondary: #b3b3b3;
+  --text-muted: #a3a3a3;
+  --text-dim: #737373;
+  --text-faint: #525252;
+
+  --accent-red: #ef4444;
+  --accent-red-text: #f87171;
+  --accent-yellow: #f59e0b;
+  --accent-yellow-text: #fbbf24;
+  --accent-green: #22c55e;
+  --accent-green-text: #4ade80;
+}
+
+@theme inline {
+  --color-bg-base: var(--bg-base);
+  --color-bg-card: var(--bg-card);
+  --color-bg-card-header: var(--bg-card-header);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-border-card: var(--border);
+  --color-border-subtle: var(--border-subtle);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-body: var(--text-body);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-dim: var(--text-dim);
+  --color-text-faint: var(--text-faint);
+
+  --color-accent-red: var(--accent-red);
+  --color-accent-red-text: var(--accent-red-text);
+  --color-accent-yellow: var(--accent-yellow);
+  --color-accent-yellow-text: var(--accent-yellow-text);
+  --color-accent-green: var(--accent-green);
+  --color-accent-green-text: var(--accent-green-text);
+
+  --font-display: var(--font-outfit);
+  --font-body: var(--font-dm-sans);
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--text-body);
+}
