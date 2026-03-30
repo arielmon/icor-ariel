@@ -33,3 +33,5 @@ dashboard/next-env.d.ts
 
 # Client secrets
 client_secret_*.json
+
+.vercel

@@ -1,0 +1,8 @@
+.tmp.driveupload
+.superpowers
+.claude
+node_modules
+dashboard/node_modules
+dashboard/.next
+dashboard/.vercel
+client_secret_*.json
