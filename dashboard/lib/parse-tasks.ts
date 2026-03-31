@@ -53,11 +53,11 @@ export function getTaskData(): TaskData {
     const header = lines[0]?.trim().toLowerCase() ?? "";
 
     if (header.startsWith("must")) {
-      must = parseTasks(lines.slice(1));
+      must = parseTasks(lines.slice(1)).filter((t) => !t.done);
     } else if (header.startsWith("should")) {
-      should = parseTasks(lines.slice(1));
+      should = parseTasks(lines.slice(1)).filter((t) => !t.done);
     } else if (header.startsWith("could")) {
-      could = parseTasks(lines.slice(1));
+      could = parseTasks(lines.slice(1)).filter((t) => !t.done);
     }
   }
 
