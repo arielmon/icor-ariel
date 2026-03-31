@@ -7,6 +7,7 @@
 - [x] Bot ISFIS: Hacer que entregue el PDF que pasó Clarissa + arreglar respuestas para que parezcan más naturales. #projects
 - [ ] Hacer facturas: Cecuresa, Usaaar, Fermin Chan y Aplipol. #work
 - [ ] Bot ISFIS: Que identifique fotos de transferencias, Yappy y comprobantes de pago. #projects
+- [ ] Definir OKRs del trimestre. #projects
 
 ## Should (Important, flexible timing)
 
